@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+.hero
+{
+ width: 100%;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ position: absolute;
+ text-align: center;
+ 
+}
+h1
+{
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffea00;
+    background:url(back.png);
+    -webkit-background-clip:text ;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    margin-bottom: 5%;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.btn
+{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #ffea00;
+    color: #ffea00;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 35%;
+    position: relative;
+    text-decoration: none;
+}
+.btn p
+{
+font-size: 20px;
+padding-top: 12px;
+font-weight: bold;
+text-align: center;
+color: #ffea00;
+text-decoration: none;
+}
+#a1
+{
+    text-decoration: none;
+}
